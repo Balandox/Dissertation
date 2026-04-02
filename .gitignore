@@ -1,0 +1,133 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы виртуального окружения (конкретно для вашей структуры)
+.venv/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы проекта PyCharm
+.idea/
+*.iml
+*.iws
+.atom/
+.build/
+
+# Данные (ЭТО ВАЖНО - видео и датасеты НЕ должны попадать в git)
+data/
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.csv
+*.json
+*.pickle
+*.pkl
+
+# Выходные данные
+outputs/
+*.log
+*.out
+*.err
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Тестирование и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+logs/
+
+# Документация (опционально - если генерируемая)
+docs/_build/
+site/
+
+# Системные файлы
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Модели машинного обучения (обычно большие файлы)
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.onnx
+*.tflite
+
+# Ваши специфические файлы
+# (раскомментируйте, если нужно исключить)
+# dataset_metadata.csv
+# *.pkl
+
+# Альтернатива: если хотите сохранить структуру папок, но без содержимого
+# data/*/
+# !data/.gitkeep
+# outputs/*/
+# !outputs/.gitkeep
