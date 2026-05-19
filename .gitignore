@@ -50,12 +50,6 @@ videos/
 *.pickle
 *.pkl
 
-# Выходные данные
-outputs/
-*.log
-*.out
-*.err
-
 # Python
 __pycache__/
 *.py[cod]
