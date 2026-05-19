@@ -42,10 +42,8 @@ videos/
 *.webm
 *.jpg
 *.jpeg
-*.png
 *.bmp
 *.tiff
-*.csv
 *.json
 *.pickle
 *.pkl
